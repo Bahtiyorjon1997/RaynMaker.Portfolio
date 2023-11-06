@@ -50,6 +50,7 @@ import API from '@/api'
 
 export default {
   name: 'CashflowComposition',
+  // eslint-disable-next-line space-before-function-paren
   setup() {
     const transactions = ref(null)
     const limit = ref(25)
